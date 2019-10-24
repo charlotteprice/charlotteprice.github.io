@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Archive of Dreams</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .navbar {
+  overflow: hidden;
+  background-color: #00BFFF; /* Dark background color */
+  color: #B0C4DE
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: white;
+  text-align: center;
+  padding: 10px 14px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+.navbar a:hover {
+  background-color: #ddd; /* Grey background color */
+  color: black; /* Black text color */
+}
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%; /* Set the width of the sidebar */
+  background-color: #f1f1f1; /* Grey background color */
+  padding: 20px; /* Some padding */
+}
+
+/* Main column */
+.main {
+  flex: 70%; /* Set the width of the main content */
+  background-color: white; /* White background color */
+  padding: 20px; /* Some padding */
+}
+</style>
+<body style = "background-color:blue;">
+  <h1>Dream Archive<h2>
+    <p>the dream archive is a radio show about dreams</p>
+  <div class="navbar">
+  <a href="#">episodes</a>
+  <a href="#">dreams</a>
+  <a href="#">tattoos</a>
+  <a href="#" class="right">songs</a>
+</div>
+  <div class="row">
+  <div class="side">...</div>
+  <div class="main">...</div>
+</div>
+
+</body>
+</html>
