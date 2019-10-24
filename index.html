@@ -5,6 +5,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+  .body {
+    background-color:blue;
+  }
+  .header{
+    background-color:red;
+    text-align:center;
+  }
+
   .navbar {
   overflow: hidden;
   background-color: #00BFFF; /* Dark background color */
@@ -32,22 +40,24 @@
 }
 
 /* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
 .side {
   flex: 30%; /* Set the width of the sidebar */
   background-color: #f1f1f1; /* Grey background color */
   padding: 20px; /* Some padding */
 }
-
-/* Main column */
 .main {
   flex: 70%; /* Set the width of the main content */
   background-color: white; /* White background color */
   padding: 20px; /* Some padding */
 }
+.footer {
+  padding: 20px; /* Some padding */
+  text-align: center; /* Center text*/
+  background: #ddd; /* Grey background */
+}
 </style>
-<body style = "background-color:blue;">
-  <h1>Dream Archive<h2>
+<body class=body>
+  <h1 class=header>Dream Archive</h1>
     <p>the dream archive is a radio show about dreams</p>
   <div class="navbar">
   <a href="#">episodes</a>
@@ -55,9 +65,14 @@
   <a href="#">tattoos</a>
   <a href="#" class="right">songs</a>
 </div>
-  <div class="row">
-  <div class="side">...</div>
+  <div class="row"> 
+  <div class="side">
+    <img src="BookScanCenter.jpg">
+ </div>
   <div class="main">...</div>
+</div>
+  <div class="footer">
+  <h2>Thank you for visiting</h2>
 </div>
 
 </body>
